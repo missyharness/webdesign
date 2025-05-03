@@ -1,0 +1,239 @@
+.navbar {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1em 1.2em;
+    display: inline-block;
+    font-size: 1em;
+    background-color: violet;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    color: white;
+}
+
+.navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.navbar a.active:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style the dropdown container */
+.dropdown {
+    display: flex;
+    z-index: 1;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 10;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* Add hover effect for dropdown links */
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+h2 {
+    color: blue;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+h3 {
+    color: red;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+p {
+    color: #333;
+    line-height: 1.2;
+    text-align: justify;
+    margin: 0 100px 0 100px; /* Add margin to the left and right */
+}
+
+.profile-pic {
+    width: 25%;
+    max-width: 175px; /* Set a fixed size for the image */
+    height: auto;
+    border-radius: 75%;
+    margin: 20px auto;
+    justify-content: center;
+    display: block;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border-left: 4px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1.2em;
+    max-width: 60%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #777;
+}
+
+.associations {
+    display: flex;
+    justify-content: center; /* Center the images */
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.associations p {
+    text-align: center; /* Center the text */
+    margin: 0; /* Remove extra margin */
+    border-bottom: #333 solid 1px; /* Add a bottom border */
+    padding-bottom: 10px; /* Add padding to the bottom */
+}
+
+.association-logo {
+    max-width: 200px; /* Set a fixed size for logos */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px; /* Add spacing between logos */
+}
+
+.image-container {
+    height: 220px; /* Set a fixed height for the container */
+    display: flex;
+    justify-content: center; /* Adjust spacing between columns */
+    align-items: center; /* Align items vertically */
+    flex-wrap: wrap; /* Wrap items if the screen is too small */
+    gap: 20px; /* Optional: Adds spacing between items */
+    overflow: hidden; /* Optional: Hide overflow */
+}
+
+.image-container img {
+    height: 200px; /* Maintain aspect ratio */
+    width: auto; /* Adjust width to fit three images in a row */
+    border: 2px solid #ccc; /* Optional: Add a border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+    border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.contact {
+    display: flex;
+    justify-content: center; /* Space between the two containers */
+    align-items: flex-start; /* Align items at the top */
+    flex-direction: row; /* Arrange items side-by-side */
+    flex-wrap: nowrap; /* Prevent wrapping to keep containers side-by-side */
+    gap: 20px; /* Add spacing between the containers */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Set a fixed width for the container */
+    margin: 0; /* Remove extra margin */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Align text to the left */
+    gap: 0; /* Add spacing between items */
+    flex: 1; /* Allow equal space for both containers */
+    line-height: 1; /* Adjust line height for better readability */
+}
+
+.contact-info p {
+    margin: 0; /* Remove extra margin */
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column; /* Stack items horizonally */
+    align-items: center; /* Align icons to the left */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+    justify-content: center; /* Center the icons */
+    gap: 0; /* Add spacing between items */
+    flex: 1; /* Allow equal space for both containers */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.social-media img {
+    height: auto;
+    width: 30px; /* Set a fixed size for icons */
+    gap: 10px; /* Add spacing between icons */
+}
+
+.social-media p {
+    text-align: justify; /* Align text to the left */
+}
+
+.resume h1 {
+    color: blue;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.resume h2 {
+    color: #333;
+    text-align: left;
+    font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 100px; /* Add margin to the left */
+}
