@@ -145,7 +145,6 @@ footer {
 }
 
 .associations p {
-    text-align: center; /* Center the text */
     margin: 0; /* Remove extra margin */
     border-bottom: #333 solid 1px; /* Add a bottom border */
     padding-bottom: 10px; /* Add padding to the bottom */
