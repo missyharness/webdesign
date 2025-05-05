@@ -400,6 +400,10 @@ footer {
     line-height: 1.2; /* Adjust line height for better readability */
 }
 
+.publication-list li {
+font-weight: bold;
+}
+
 .publication-list a {
     text-decoration: none; /* Remove underline from links */
     color: #333; /* Set text color */
@@ -419,12 +423,14 @@ footer {
     align-items: flex-start; /* Align items to the left */
     flex-wrap: wrap;
     margin-left: -80px; /* Remove margin to the left */
+    width: 135%; /* Set a fixed width for the container */
 }
 
 .publication-details li {
     margin-top: 5px; /* Add spacing between items */
     line-height: 1.2; /* Adjust line height for better readability */
     font-size: 0.8em; /* Set font size */
+    font-weight: normal; /* Set font weight to normal */
 }
 
 /* Tooltip container */
