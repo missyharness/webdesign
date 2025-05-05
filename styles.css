@@ -39,7 +39,7 @@
 
 /* Style the dropdown container */
 .dropdown {
-    display: flex;
+    display: inline-block;
     z-index: 1;
 }
 
@@ -164,6 +164,8 @@ footer {
     flex-wrap: wrap; /* Wrap items if the screen is too small */
     gap: 20px; /* Optional: Adds spacing between items */
     overflow: hidden; /* Optional: Hide overflow */
+    padding-top: 20px; /* Add padding to the top */
+    padding-bottom: 20px; /* Add padding to the bottom */
 }
 
 .image-container img {
@@ -172,6 +174,19 @@ footer {
     border: 2px solid #ccc; /* Optional: Add a border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
     border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.image-container figure {
+    margin: 0; /* Remove extra margin */
+    padding: 0; /* Remove extra padding */
+    text-align: center; /* Center the caption */
+}
+
+.image-container figcaption {
+    font-size: 0.8em; /* Set font size for caption */
+    color: #777; /* Set color for caption */
+    margin-top: 5px; /* Add spacing above caption */
+    text-align: center; /* Center the caption */
 }
 
 .contact {
@@ -224,8 +239,10 @@ footer {
     color: blue;
     text-align: center;
     font-size: 1.5em;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-bottom: 5px;
+    border-top: #333 solid 1px; /* Add a top border */
+    padding-top: 10px; /* Add padding to the top */
 }
 
 .resume h2 {
@@ -235,4 +252,222 @@ footer {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 100px; /* Add margin to the left */
+}
+
+.resume ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-align: left; /* Align text to the left */
+    margin-left: 120px; /* Add margin to the left */
+    margin-bottom: 10px; /* Add margin to the bottom */
+}
+
+.resume li {
+    margin-top: 10px; /* Add spacing between items */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.experience ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-align: left; /* Align text to the left */
+    margin-left: 100px; /* Add margin to the left */
+    margin-bottom: 10px; /* Add margin to the bottom */
+}
+
+.icon-container {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.icon-container img {
+    height: 15px; /* Set a fixed size for the download icon */
+    width: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between icon and text */
+}
+.icon-container a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color */
+    justify-content: flex-end; /* Align text to the right */
+    font-size: 1em; /* Set font size */
+    margin-left: 10px; /* Add spacing between icon and text */
+}
+
+.project-list {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: left; /* Align items to the left */
+    flex-wrap: wrap;
+    width: 75%;
+    margin: 0 auto;
+    margin-left: 120px; /* Add margin to the left */
+    padding: 10px;
+}
+
+.project-list ul {
+    text-align: left; /* Align text to the left */
+}
+.project-list li {
+    margin-top: 5px; /* Add spacing between items */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.project-container h1 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-top: 10px; /* Add padding to the top */
+}
+
+.project-container iframe {
+    width: 100%;
+    height: 400px; /* Set a fixed height for the iframe */
+    border: none; /* Remove border */
+    margin-bottom: 20px; /* Add spacing below the iframe */
+}
+.project-container p {
+    text-align: left; /* Align text to the left */
+    padding-top: 10px; /* Add padding to the top */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+.project-container table {
+    margin-left: 100px; /* Add spacing to the left of the table */
+    margin-right: 100px; /* Add spacing to the right of the table */
+    align-items: center; /* Align items vertically */
+}
+
+.project-container th, .project-container td {
+    border: 1px solid #ddd; /* Add border to header and data cells */
+    padding: 8px; /* Add padding to header and data cells */
+    text-align: left; /* Align text to the left */
+    text-wrap: normal; /* Allow text to wrap */
+}
+
+.project-container th {
+    background-color: #6a97f8; /* Set background color for header */
+    font-weight: bold; /* Make header text bold */
+}
+
+.project-container th:nth-child(1),
+.project-container td:nth-child(1) {
+    width: fit-content; /* Set width for the first column */
+}
+
+.project-container th:nth-child(2),
+.project-container td:nth-child(2) {
+    width: fit-content; /* Set width for the second column */
+}
+
+.project-container th:nth-child(3),
+.project-container td:nth-child(3) {
+    width: fit-content; /* Set width for the third column */
+}
+
+.project-container th:nth-child(4),
+.project-container td:nth-child(4) {
+    width: fit-content; /* Set width for the fourth column */
+}
+
+.publication-container h1 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-top: 10px; /* Add padding to the top */
+}
+.publication-container h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-top: 10px; /* Add padding to the top */
+}
+.publication-container p {
+    text-align: justify; /* Align text to the left */
+    padding-top: 10px; /* Add padding to the top */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+.publication-container ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    text-align: justify; /* Align text to the left */
+    margin: 0 100px 10px 100px; /* Add margin to the left */
+}
+.publication-container li {
+    margin-top: 5px; /* Add spacing between items */
+    line-height: 1.2; /* Adjust line height for better readability */
+}
+
+.publication-list a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set text color */
+    justify-content: flex-end; /* Align text to the right */
+    font-size: 1em; /* Set font size */
+    font-weight: bold; /* Make text bold */
+}
+
+.publication-list a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: blue; /* Change color on hover */
+}
+
+.publication-details {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    flex-wrap: wrap;
+    margin-left: -80px; /* Remove margin to the left */
+}
+
+.publication-details li {
+    margin-top: 5px; /* Add spacing between items */
+    line-height: 1.2; /* Adjust line height for better readability */
+    font-size: 0.8em; /* Set font size */
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative; /* Position relative to contain the tooltip */
+    display: inline-block; /* Inline-block for proper alignment */
+    cursor: pointer; /* Change cursor to pointer */
+    width: 100%; /* Set width to 100% */
+}
+
+/* Tooltip text (hidden by default) */
+.tooltip .tooltip-text {
+    visibility: hidden; /* Hide the tooltip by default */
+    width: 100%; /* Make the tooltip the same width as the container */
+    background-color: #faf6b8; /* Background for the tooltip */
+    color: #000000; /* Text color */
+    text-align: center; /* Center the text */
+    padding: 5px 10px; /* Add padding for better readability */
+    font-size: 0.8em; /* Set font size for the tooltip text */
+    border-radius: 5px; /* Rounded corners */
+    position: absolute; /* Position it relative to the container */
+    z-index: 1; /* Ensure it appears above other elements */
+    top: 125%; /* Position below the element */
+    left: 0; /* Align it with the left edge of the container */
+    transform: none; /* Remove centering transform */
+    opacity: 0; /* Make it invisible */
+    transition: opacity 0.3s; /* Smooth fade-in effect */
+}
+
+/* Tooltip arrow */
+.tooltip .tooltip-text::after {
+    content: '';
+    position: absolute;
+    top: -5px; /* Position the arrow above the tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #faf6b8 transparent; /* Arrow pointing up */
+}
+
+/* Show the tooltip on hover */
+.tooltip:hover .tooltip-text {
+    visibility: visible; /* Make the tooltip visible */
+    opacity: 1; /* Fully visible */
 }
