@@ -39,7 +39,7 @@
 
 /* Style the dropdown container */
 .dropdown {
-    display: inline-block;
+    display: flex;
     z-index: 1;
 }
 
