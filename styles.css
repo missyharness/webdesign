@@ -318,6 +318,14 @@ footer {
     line-height: 1.2; /* Adjust line height for better readability */
 }
 
+.project-container {
+    display: flex; /* Use Flexbox for centering */
+    justify-content: center; /* Horizontally center the iframe */
+    align-items: center; /* Vertically center the iframe */
+    flex-direction: column; /* Stack items vertically */
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
 .project-container h1 {
     margin-top: 25px;
     margin-bottom: 15px;
@@ -325,14 +333,16 @@ footer {
 }
 
 .project-container iframe {
-    width: 100%;
+    width: 80%; /* Set a fixed width for the iframe */
     height: 400px; /* Set a fixed height for the iframe */
     border: none; /* Remove border */
-    margin-bottom: 20px; /* Add spacing below the iframe */
+    margin: 0 auto; /* Ensure the iframe is centered horizontally */
+    display: block; /* Ensure the iframe behaves like a block element */
 }
 .project-container p {
     text-align: left; /* Align text to the left */
     padding-top: 10px; /* Add padding to the top */
+    padding-bottom: 10px; /* Add padding to the bottom */;
     line-height: 1.2; /* Adjust line height for better readability */
 }
 .project-container table {
