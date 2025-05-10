@@ -487,3 +487,17 @@ font-weight: bold;
     visibility: visible; /* Make the tooltip visible */
     opacity: 1; /* Fully visible */
 }
+
+.song-list ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
+    gap: 20px; /* Add spacing between items */
+}
+
+.song-list li {
+    display: flex; /* Ensure the iframe and text stay together */
+    flex-direction: column; /* Stack iframe and caption vertically */
+    align-items: center; /* Center align the content */
+}
