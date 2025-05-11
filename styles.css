@@ -10,7 +10,8 @@
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: fit-content;
+    height: 50px;
+    position: fixed; /* Fix the navbar to the top */
 }
 
 .navbar a {
