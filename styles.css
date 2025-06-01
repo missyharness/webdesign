@@ -1,0 +1,222 @@
+html {
+    background-image: url('images/Tavern.jpg');
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    width: 1000px; /* fixed width for the layout */
+    margin: 0 auto; /* centers the body content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers content horizontally */
+    justify-content: center; /* centers content vertically */
+    font-family: 'Arial', sans-serif;
+    flex-wrap: wrap; /* allows content to wrap on smaller screens */
+}
+
+nav {
+    background-color: rgba(0, 0, 0);
+    color: white;
+    padding: 1rem 2rem;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5rem; /* space between menu items */
+    justify-content: center; /* centers the menu items */
+    flex-wrap: wrap; /* allows items to wrap on smaller screens */
+}
+
+nav li {
+    display: inline; /* optional, flex handles layout */
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5em 1em;
+    transition: background 0.2s;
+}
+
+nav a.active,
+nav a:hover {
+    background: #2e8b57; /* dark green */
+    border-radius: 4px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.7); /* semi-transparent black */
+    color: goldenrod;
+    width: 100%;
+    max-width: 1000px; /* ensures header does not exceed body width */
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    width: 80px;
+    height: auto;
+}
+
+header h1, 
+header p {
+    margin: 0;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    background-color: #ffffffbd;
+    color: black;
+    width: 100%;
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    flex: 1; /* allows main to grow and fill available space */
+    text-align: center;
+}
+
+.banner-carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 2rem auto;
+    background: #361b00;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    overflow: hidden;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-slide {
+    display: none;
+    padding: 2rem;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.banner-slide.active {
+    display: block;
+    animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.banner-carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* ensures footer does not exceed body width */
+    margin-top: auto; /* pushes footer to the bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    line-height: 1.1;
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.store-nav {
+    background-color: #361b00;
+    color: white;
+    padding: 1rem;
+    width: 80%;
+    max-width: 800px; /* ensures nav does not exceed body width */
+    margin: 1rem auto; /* centers the nav */
+    font-size: 12px;
+}
+
+.store-nav ul ul {
+    display: none;
+    position: absolute;
+    background: #361b00;
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 8px 8px;
+    min-width: 180px;
+    z-index: 100;
+}
+
+.store-nav ul li {
+    position: relative;
+}
+
+.store-nav ul li:hover > ul,
+.store-nav ul li:focus-within > ul {
+    display: block;
+}
+
+.store-nav ul ul li {
+    display: block;
+    text-align: left;
+    padding: 0;
+}
+
+.store-nav ul ul a {
+    padding: 0.5em 1em;
+    display: block;
+    color: white;
+    background: #361b00;
+    border-bottom: 1px solid #222;
+}
+
+.store-nav ul ul a:hover {
+    background: #2e8b57;
+}
+
+main .logo {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+main ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+main ul li {
+    display: inline-block;
+}
