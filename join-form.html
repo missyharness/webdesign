@@ -41,18 +41,48 @@
                 </select>
             </label>
             <label>
-                Do you need a character:
+                Experience with Character Creation:
                 <select name="character" required>
                     <option value="">Select...</option>
-                    <option value="yes">I have never made a character before</option>
-                    <option value="help">I have made a character, but I could use some help</option>
-                    <option value="good">I know how to make a character</option>
-                    <option value="expert">No, I already have one</option>
+                    <option value="beginner">I have never made a character before</option>
+                    <option value="intermediate">I could use some help</option>
+                    <option value="experienced">I know how to make a character</option>
                 </select>
             </label>
             <label>
-                Tell us about your character or interests (optional):
-                <textarea name="message" rows="4"></textarea>
+                Preferred Party Role:
+                <select name="party-role" required>
+                    <option value="">Select...</option>
+                    <option value="tank">Tank</option>
+                    <option value="healer">Healer</option>
+                    <option value="damage-dealer">Damage Dealer</option>
+                    <option value="support">Support</option>
+                    <option value="flexible">Flexible</option>
+                </select>
+            </label>
+            <label>
+                Why do you want to join this game and what do you hope to gain from it?:
+                <textarea name="message" rows="5" required></textarea>
+            </label>
+            <label>
+                Do you have a character sheet ready?
+                <select name="character-sheet-ready" required>
+                    <option value="">Select...</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+            </label>
+            <label>
+                Character Name (if applicable):
+                <input type="text" name="character-name">
+            </label>
+            <label>
+                Attach Character Sheet (if applicable):
+                <input type="file" name="character-sheet" accept=".pdf,.doc,.docx,.txt">
+            </label>
+            <label>
+                Attach Character Backstory (if applicable):
+                <input type="file" name="character-backstory" accept=".pdf,.doc,.docx,.txt">
             </label>
             <button type="submit">Submit Application</button>
             <button type="button" id="cancel-btn">Cancel</button>
@@ -69,9 +99,29 @@
         if (game) {
             document.getElementById('game-name').value = decodeURIComponent(game.replace(/\+/g, ' '));
         }
-    });
-    document.getElementById('cancel-btn').addEventListener('click', function() {
-        window.location.href = 'games.html';
+
+        // Cancel button
+        document.getElementById('cancel-btn').addEventListener('click', function() {
+            window.location.href = 'games.html';
+        });
+
+        // Conditional required fields
+        const charSheetSelect = document.querySelector('select[name="character-sheet-ready"]');
+        const charName = document.querySelector('input[name="character-name"]');
+        const charSheet = document.querySelector('input[name="character-sheet"]');
+        const charBackstory = document.querySelector('input[name="character-backstory"]');
+
+        function updateRequiredFields() {
+            const isYes = charSheetSelect.value === 'yes';
+            charName.required = isYes;
+            charSheet.required = isYes;
+            charBackstory.required = isYes;
+        }
+
+        charSheetSelect.addEventListener('change', updateRequiredFields);
+
+        // Run on page load in case of autofill
+        updateRequiredFields();
     });
     </script>
 </body>
