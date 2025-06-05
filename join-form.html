@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join a Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Charleston D&D Guildhall Logo" class="logo">
+        <div class="header-text">
+            <h1>Charleston D&D Guildhall</h1>
+            <p>Your hub for all things Dungeons & Dragons in Charleston, South Carolina</p>
+        </div>
+        <img src="images/logo.jpg" alt="Charleston D&D Guildhall Logo" class="logo">
+    </header>
+    <main>
+        <h1>Apply to Join a Game</h1>
+        <form id="join-game-form" action="#" method="post">
+            <label>
+                Game You Want to Join:
+                <input type="text" id="game-name" name="game" required readonly>
+            </label>
+            <label>
+                Your Name:
+                <input type="text" name="name" required>
+            </label>
+            <label>
+                Email Address:
+                <input type="email" name="email" required>
+            </label>
+            <label>
+                Experience Level:
+                <select name="experience" required>
+                    <option value="">Select...</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="experienced">Experienced</option>
+                </select>
+            </label>
+            <label>
+                Do you need a character:
+                <select name="character" required>
+                    <option value="">Select...</option>
+                    <option value="yes">I have never made a character before</option>
+                    <option value="help">I have made a character, but I could use some help</option>
+                    <option value="good">I know how to make a character</option>
+                    <option value="expert">No, I already have one</option>
+                </select>
+            </label>
+            <label>
+                Tell us about your character or interests (optional):
+                <textarea name="message" rows="4"></textarea>
+            </label>
+            <button type="submit">Submit Application</button>
+            <button type="button" id="cancel-btn">Cancel</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Melissa A. Harness</p>
+    </footer>
+    <script>
+    // Autofill the game name from the URL query string
+    document.addEventListener('DOMContentLoaded', function() {
+        const params = new URLSearchParams(window.location.search);
+        const game = params.get('game');
+        if (game) {
+            document.getElementById('game-name').value = decodeURIComponent(game.replace(/\+/g, ' '));
+        }
+    });
+    document.getElementById('cancel-btn').addEventListener('click', function() {
+        window.location.href = 'games.html';
+    });
+    </script>
+</body>
+</html>

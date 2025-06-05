@@ -29,22 +29,164 @@
     </nav>
     <main>
         <h1>Join a Game</h1>
-        <p>Ready to embark on your next Dungeons & Dragons adventure? Join one of our ongoing campaigns or start your own!</p>
+    <p>Ready to embark on your next Dungeons & Dragons adventure? Use the filters below to find a game that fits your style!</p>
 
-        <h2>How to Join</h2>
-        <ol>
-            <li>Fill out the <a href="join-form.html">Join a Game Form</a>.</li>
-            <li>Check our schedule for available games.</li>
-            <li>Connect with a Dungeon Master to discuss character creation and game details.</li>
-        </ol>
+    <p>Whether you're a seasoned player or new to the game, we have a variety of campaigns available. Click on the "Apply to Join" button for any game that interests you to fill out a form and get started!</p>
+    
+    <p>Use the filters to narrow down your search:</p>
+    <!-- Place this above <section class="game-filters"> -->
+    <button id="toggle-filters-btn" type="button">Show Filters</button>
+    <section class="game-filters">
+        <form id="game-filter-form">
+            <label>
+                Role-play Style:
+                <select id="roleplay-style">
+                    <option value="">Any</option>
+                    <option value="heavy">Heavy Role-play</option>
+                    <option value="balanced">Balanced</option>
+                    <option value="light">Light Role-play</option>
+                </select>
+            </label>
+            <label>
+                Combat Amount:
+                <select id="combat-amount">
+                    <option value="">Any</option>
+                    <option value="high">High</option>
+                    <option value="medium">Medium</option>
+                    <option value="low">Low</option>
+                </select>
+            </label>
+            <label>
+                Campaign Setting:
+                <select id="campaign-setting">
+                    <option value="">Any</option>
+                    <option value="forgotten-realms">Forgotten Realms</option>
+                    <option value="homebrew">Homebrew</option>
+                    <option value="ravenloft">Ravenloft</option>
+                    <option value="eberron">Eberron</option>
+                    <option value="dark-sun">Dark Sun</option>
+                    <option value="spelljammer">Spelljammer</option>
+                    <option value="planescape">Planescape</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+            <label>
+                Rule-set:
+                <select id="rule-set">
+                    <option value="">Any</option>
+                    <option value="5e2014">D&D 5e 2014</option>
+                    <option value="5e2024">D&D 5e 2024</option>
+                    <option value="4e">D&D 4e</option>
+                    <option value="3.5e">D&D 3.5e</option>
+                    <option value="pathfinder">Pathfinder</option>
+                    <option value="other">Other</option>
+                </select>
+            </label>
+            <label>
+                Day of the Week:
+                <select id="game-schedule">
+                    <option value="">Any</option>
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="saturday">Saturday</option>
+                    <option value="sunday">Sunday</option>
+                </select>
+            </label>
+            <label>
+                Time of Day:
+                <select id="game-time">
+                    <option value="">Any</option>
+                    <option value="morning">Morning</option>
+                    <option value="afternoon">Afternoon</option>
+                    <option value="evening">Evening</option>
+                    <option value="night">Night</option>
+                </select>
+            </label>
+        </form>
+    </section>
 
-        <h2>Upcoming Games</h2>
-        <ul>
-            <li><strong>Dragons of the Lowcountry:</strong> Every Friday at 7 PM</li>
-            <li><strong>The Lost Mines of Phandelver:</strong> Every Saturday at 3 PM</li>
-            <li><strong>Curse of Strahd:</strong> Every Sunday at 5 PM</li>
-        </ul>
-
+    <section id="game-board">
+        <div class="game-listing" data-roleplay="heavy" data-combat="medium" data-setting="homebrew" data-ruleset="5e2024" data-schedule="friday" data-time="evening">
+            <h3>Dragons of the Lowcountry</h3>
+            <p><strong>Schedule:</strong> Every Friday at 7 PM</p>
+            <p><strong>Role-play:</strong> Heavy | <strong>Combat:</strong> Medium | <strong>Setting:</strong> Homebrew | <strong>Rule-set:</strong> D&D 5e 2024</p>
+            <p>Explore the mystical marshes of Charleston in this homebrew campaign. All experience levels welcome!</p>
+            <a class="apply-btn" href="join-form.html?game=Dragons%20of%20the%20Lowcountry">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="balanced" data-combat="high" data-setting="forgotten-realms" data-ruleset="5e2014" data-schedule="saturday" data-time="afternoon">
+            <h3>The Lost Mines of Phandelver</h3>
+            <p><strong>Schedule:</strong> Every Saturday at 3 PM</p>
+            <p><strong>Role-play:</strong> Balanced | <strong>Combat:</strong> High | <strong>Setting:</strong> Forgotten Realms | <strong>Rule-set:</strong> D&D 5e 2014</p>
+            <p>Classic D&D adventure for new and returning players. Pre-generated characters available.</p>
+            <a class="apply-btn" href="join-form.html?game=Lost%20Mines%20of%20Phandelver">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="light" data-combat="low" data-setting="ravenloft" data-ruleset="5e2014" data-schedule="sunday" data-time="evening">
+            <h3>Curse of Strahd</h3>
+            <p><strong>Schedule:</strong> Every Sunday at 5 PM</p>
+            <p><strong>Role-play:</strong> Light | <strong>Combat:</strong> Low | <strong>Setting:</strong> Ravenloft | <strong>Rule-set:</strong> D&D 5e 2014</p>
+            <p>Face the legendary vampire lord in this gothic horror campaign. Intermediate experience recommended.</p>
+            <a class="apply-btn" href="join-form.html?game=Curse%20of%20Strahd">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="heavy" data-combat="high" data-setting="homebrew" data-ruleset="pathfinder" data-schedule="saturday" data-time="evening">
+            <h3>Rise of the Runelords</h3>
+            <p><strong>Schedule:</strong> Every Saturday at 6 PM</p>
+            <p><strong>Role-play:</strong> Heavy | <strong>Combat:</strong> High | <strong>Setting:</strong> Homebrew | <strong>Rule-set:</strong> Pathfinder</p>
+            <p>A classic Pathfinder adventure with a focus on exploration and combat. All levels welcome!</p>
+            <a class="apply-btn" href="join-form.html?game=Rise%20of%20the%20Runelords">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="balanced" data-combat="medium" data-setting="forgotten-realms" data-ruleset="3.5e" data-schedule="friday" data-time="night">
+            <h3>Shadows of the Past</h3>
+            <p><strong>Schedule:</strong> Every Friday at 8 PM</p>
+            <p><strong>Role-play:</strong> Balanced | <strong>Combat:</strong> Medium | <strong>Setting:</strong> Forgotten Realms | <strong>Rule-set:</strong> D&D 3.5e</p>
+            <p>A thrilling adventure set in the iconic Forgotten Realms. New players welcome!</p>
+            <a class="apply-btn" href="join-form.html?game=Shadows%20of%20the%20Past">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="light" data-combat="low" data-setting="homebrew" data-ruleset="5e2024" data-schedule="wednesday" data-time="afternoon">
+            <h3>The Lost Treasure of Charleston</h3>
+            <p><strong>Schedule:</strong> Every Wednesday at 4 PM</p>
+            <p><strong>Role-play:</strong> Light | <strong>Combat:</strong> Low | <strong>Setting:</strong> Homebrew | <strong>Rule-set:</strong> D&D 5e 2024</p>
+            <p>A light-hearted treasure hunt through the streets of Charleston. Perfect for beginners!</p>
+            <a class="apply-btn" href="join-form.html?game=Lost%20Treasure%20of%20Charleston">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="heavy" data-combat="high" data-setting="eberron" data-ruleset="5e2024" data-schedule="thursday" data-time="evening">
+            <h3>War of the Last War</h3>
+            <p><strong>Schedule:</strong> Every Thursday at 7 PM</p>
+            <p><strong>Role-play:</strong> Heavy | <strong>Combat:</strong> High | <strong>Setting:</strong> Eberron | <strong>Rule-set:</strong> D&D 5e 2024</p>
+            <p>An epic campaign set in the war-torn world of Eberron. Experienced players preferred.</p>
+            <a class="apply-btn" href="join-form.html?game=War%20of%20the%20Last%20War">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="balanced" data-combat="medium" data-setting="dark-sun" data-ruleset="5e2014" data-schedule="wednesday" data-time="evening">
+            <h3>Sands of Time</h3>
+            <p><strong>Schedule:</strong> Every Wednesday at 6 PM</p>
+            <p><strong>Role-play:</strong> Balanced | <strong>Combat:</strong> Medium | <strong>Setting:</strong> Dark Sun | <strong>Rule-set:</strong> D&D 5e 2014</p>
+            <p>A gritty survival campaign in the harsh deserts of Athas. All experience levels welcome!</p>
+            <a class="apply-btn" href="join-form.html?game=Sands%20of%20Time">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="light" data-combat="low" data-setting="spelljammer" data-ruleset="5e2024" data-schedule="tuesday" data-time="evening">
+            <h3>Adventures in Space</h3>
+            <p><strong>Schedule:</strong> Every Tuesday at 5 PM</p>
+            <p><strong>Role-play:</strong> Light | <strong>Combat:</strong> Low | <strong>Setting:</strong> Spelljammer | <strong>Rule-set:</strong> D&D 5e 2024</p>
+            <p>A whimsical space adventure through the cosmos. Perfect for new players!</p>
+            <a class="apply-btn" href="join-form.html?game=Adventures%20in%20Space">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="heavy" data-combat="high" data-setting="planescape" data-ruleset="5e2014" data-schedule="monday" data-time="night">
+            <h3>The Infinite Paths</h3>
+            <p><strong>Schedule:</strong> Every Monday at 8 PM</p>
+            <p><strong>Role-play:</strong> Heavy | <strong>Combat:</strong> High | <strong>Setting:</strong> Planescape | <strong>Rule-set:</strong> D&D 5e 2014</p>
+            <p>An epic journey through the multiverse. Experienced players preferred.</p>
+            <a class="apply-btn" href="join-form.html?game=The%20Infinite%20Paths">Apply to Join</a>
+        </div>
+        <div class="game-listing" data-roleplay="balanced" data-combat="medium" data-setting="other" data-ruleset="5e2024" data-schedule="thursday" data-time="afternoon">
+            <h3>The Forgotten Isles</h3>
+            <p><strong>Schedule:</strong> Every Thursday at 3 PM</p>
+            <p><strong>Role-play:</strong> Balanced | <strong>Combat:</strong> Medium | <strong>Setting:</strong> Other | <strong>Rule-set:</strong> D&D 5e 2024</p>
+            <p>A unique campaign set in a mysterious archipelago. All experience levels welcome!</p>
+            <a class="apply-btn" href="join-form.html?game=Forgotten%20Isles">Apply to Join</a>
+        </div>
+    </section>
         <p>If you have any questions, feel free to contact us through our <a href="contact.html">Contact Page</a>.</p>
     </main>
     <footer>
@@ -54,6 +196,42 @@
         // Add any JavaScript functionality here if needed
         document.addEventListener('DOMContentLoaded', function() {
             console.log("Join a Game page loaded.");
+        });
+        // Filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+        const form = document.getElementById('game-filter-form');
+        const listings = document.querySelectorAll('.game-listing');
+
+            form.addEventListener('change', function() {
+                const roleplay = document.getElementById('roleplay-style').value;
+                const combat = document.getElementById('combat-amount').value;
+                const setting = document.getElementById('campaign-setting').value;
+                const ruleset = document.getElementById('rule-set').value;
+                const schedule = document.getElementById('game-schedule').value;
+                const time = document.getElementById('game-time').value;
+
+                listings.forEach(listing => {
+                    let show = true;
+                    if (roleplay && listing.dataset.roleplay !== roleplay) show = false;
+                    if (combat && listing.dataset.combat !== combat) show = false;
+                    if (setting && listing.dataset.setting !== setting) show = false;
+                    if (ruleset && listing.dataset.ruleset !== ruleset) show = false;
+                    if (schedule && listing.dataset.schedule !== schedule) show = false;
+                    if (time && listing.dataset.time !== time) show = false;
+                    listing.style.display = show ? '' : 'none';
+                });
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            const toggleBtn = document.getElementById('toggle-filters-btn');
+            const filters = document.querySelector('.game-filters');
+            let visible = false;
+
+            toggleBtn.addEventListener('click', function() {
+                visible = !visible;
+                filters.style.display = visible ? 'flex' : 'none';
+                toggleBtn.textContent = visible ? 'Hide Filters' : 'Show Filters';
+            });
         });
     </script>
 </body>

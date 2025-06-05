@@ -10,15 +10,15 @@ html, body {
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100vh; /* ensures body covers full viewport height */
     width: 1000px; /* fixed width for the layout */
     margin: 0 auto; /* centers the body content */
-    display: flex;
-    flex-direction: column;
+    display: flex; /* enables flexbox layout */
+    flex-direction: column; /* stacks children vertically */
     align-items: center; /* centers content horizontally */
-    justify-content: center; /* centers content vertically */
+    justify-content: flex-start; /* aligns content to the top */
     font-family: 'Arial', sans-serif;
-    flex-wrap: wrap; /* allows content to wrap on smaller screens */
+    flex-wrap: nowrap; /* prevents wrapping of body content */
 }
 
 nav {
@@ -105,7 +105,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     overflow: hidden;
-    min-height: 120px;
+    min-height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,6 +209,7 @@ main .logo {
     height: 32px;
     vertical-align: middle;
 }
+
 main ul {
     list-style: none;
     padding: 0;
@@ -217,6 +218,104 @@ main ul {
     justify-content: center;
     align-items: center;
 }
+
 main ul li {
     display: inline-block;
+}
+
+#game-board {
+    margin: 2rem auto;
+    max-width: 700px;
+    width: 100%;
+}
+
+.game-listing {
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.apply-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5em 1.2em;
+    background: #2e8b57;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.apply-btn:hover {
+    background: #246b43;
+}
+
+.game-filters {
+    margin: 2rem 0 1rem 0;
+    padding: 1rem;
+    background: #f8f8f8;
+    border-radius: 8px;
+    display: none; /* hidden by default */
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-filters label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.game-filters select {
+    margin-top: 0.3rem;
+    padding: 0.3em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.game-filters form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#join-game-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 2rem auto;
+    gap: 1rem;
+}
+
+#join-game-form label {
+    width: 100%;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#join-game-form input,
+#join-game-form select,
+#join-game-form textarea {
+    width: 100%;
+    margin-top: 0.3rem;
+    padding: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+#join-game-form button {
+    margin-top: 1rem;
 }
