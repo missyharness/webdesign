@@ -34,25 +34,31 @@
 
         <nav class="store-nav">
         <ul>
-            <li><a class="active" href="store.html">All Items</a></li>
-            <li><a href="art.html">Artwork</a></li>
+            <li><a class="active" href="#" data-category="">All Items</a></li>
+            <li><a href="#" data-category="art">Artwork</a></li>
             <li>
-                <a href="books.html">Books</a>
+                <a href="#" data-category="book">Books</a>
                 <ul class="sub-menu">
-                    <li><a href="rulebooks.html">Rulebooks</a></li>
-                    <li><a href="adventure-modules.html">Adventure Modules</a></li>
+                    <li><a href="#" data-category="book" data-subcategory="sourcebook">Sourcebooks</a></li>
+                    <li><a href="#" data-category="book" data-subcategory="module">Adventure Modules</a></li>
+                    <li><a href="#" data-category="book" data-subcategory="fiction">Fiction</a></li>
                 </ul>
             </li>
-            <li><a href="maps.html">Maps</a></li>
-            <li><a href="tiles.html">Terrain</a></li>
-            <li><a href="minis.html">Miniatures</a></li>
-            <li><a href="dice.html">Dice</a></li>
-            <li><a href="other.html">Accessories</a></li>
+            <li><a href="#" data-category="maps">Maps</a></li>
+            <li><a href="#" data-category="tiles">Terrain</a></li>
+            <li><a href="#" data-category="miniature">Miniatures</a></li>
+            <li><a href="#" data-category="dice">Dice</a></li>
+            <li><a href="#" data-category="accessory">Accessories</a></li>
         </ul>
         </nav>
-        <!-- Add your store content here -->
+
+        <input type="text" id="store-search" placeholder="Search items..." style="width:100%;max-width:400px;padding:0.5em;margin:1em 0;">
+
+        <div id="store-grid" class="store-grid"></div>
+        <div id="pagination" class="pagination"></div>
     </main>
 
     <footer>
         <p>&copy; 2025 Melissa A. Harness</p>
     </footer>
+    <script src="store.js"></script>

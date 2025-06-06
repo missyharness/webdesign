@@ -319,3 +319,46 @@ main ul li {
 #join-game-form button {
     margin-top: 1rem;
 }
+
+.store-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.store-item {
+    background: #fff8e1;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.store-item img {
+    max-width: 100%;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5em;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+}
+
+.pagination button {
+    padding: 0.5em 1em;
+    border: none;
+    background: #2e8b57;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination button.active,
+.pagination button:hover {
+    background: #246b43;
+}

@@ -1,0 +1,442 @@
+[
+  {
+    "name": "Charleston Nights Dice Set",
+    "img": "images/dice1.jpg",
+    "desc": "Glow-in-the-dark dice set.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 19.99,
+    "inventory": 100,
+    "keywords": ["dice", "glow-in-the-dark", "set", "charleston nights", "5e", "resin"]
+  },
+  {
+    "name": "Player's Handbook - 2014",
+    "img": "images/phb2014.jpg",
+    "desc": "D&D 5e 2014 Core Rulebook.",
+    "category": "book",
+    "subcategory": "sourcebook",
+    "price": 49.99,
+    "inventory": 50,
+    "keywords": ["rulebook", "core", "5e", "player's handbook", "2014", "sourcebook"]
+  },
+  {
+    "name": "Dungeon Master's Guide - 2014",
+    "img": "images/dmg2014.jpg",
+    "desc": "D&D 5e 2014 Core Rulebook.",
+    "category": "book",
+    "subcategory": "sourcebook",
+    "price": 39.99,
+    "inventory": 30,
+    "keywords": ["dungeon master", "guide", "5e", "rulebook", "core", "2014", "sourcebook"]
+  },
+  {
+    "name": "Monster Manual - 2014",
+    "img": "images/mm2014.jpg",
+    "desc": "D&D 5e 2014 Core Rulebook.",
+    "category": "book",
+    "subcategory": "sourcebook",
+    "price": 39.99,
+    "inventory": 25,
+    "keywords": ["monster", "manual", "5e", "rulebook", "core", "2014", "sourcebook"]
+  },
+  {
+    "name": "Player's Handbook - 2024",
+    "img": "images/phb2024.jpg",
+    "desc": "D&D 5e 2024 Core Rulebook.",
+    "category": "book",
+    "subcategory": "sourcebook",
+    "price": 59.99,
+    "inventory": 50,
+    "keywords": ["rulebook", "core", "5e", "player's handbook", "2024", "sourcebook"]
+  },
+  {
+    "name": "Dungeon Master's Guide - 2024",
+    "img": "images/dmg2024.jpg",
+    "desc": "D&D 5e 2024 Core Rulebook.",
+    "category": "book",
+    "subcategory": "sourcebook",
+    "price": 49.99,
+    "inventory": 30,
+    "keywords": ["dungeon master", "guide", "5e", "rulebook", "core", "2024", "sourcebook"]
+  },
+  {
+    "name": "Monster Manual - 2024",
+    "img": "images/mm2024.jpg",
+    "desc": "D&D 5e 2024 Core Rulebook.",
+    "category": "book",
+    "subcategory": "sourcebook",
+    "price": 49.99,
+    "inventory": 25,
+    "keywords": ["monster", "manual", "5e", "rulebook", "core", "2024", "sourcebook"]
+  },
+  {
+    "name": "Ocean Depths Dice Set",
+    "img": "images/dice2.jpg",
+    "desc": "Ocean-themed dice set.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 24.99,
+    "inventory": 75,
+    "keywords": ["dice", "ocean", "set", "5e", "resin"]
+  },
+  {
+    "name": "Adventure Module: Lost Mines of Phandelver",
+    "img": "images/lostmines.jpg",
+    "desc": "A classic adventure for new players.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 29.99,
+    "inventory": 40,
+    "keywords": ["adventure", "module", "lost mines of phandelver", "5e"]
+  },
+  {
+    "name": "Miniature: Goblin Warrior",
+    "img": "images/goblin.jpg",
+    "desc": "A detailed goblin warrior miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 14.99,
+    "inventory": 60,
+    "keywords": ["miniature", "goblin", "warrior", "5e"]
+  },
+  {
+    "name": "Dice Bag: Dragon Scale",
+    "img": "images/dicebag.jpg",
+    "desc": "A stylish dice bag with dragon scale design.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 19.99,
+    "inventory": 80,
+    "keywords": ["dice bag", "dragon scale", "accessory", "5e"]
+  },
+  {
+    "name": "Adventure Module: Curse of Strahd",
+    "img": "images/curseofstrahd.jpg",
+    "desc": "A gothic horror adventure for experienced players.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 34.99,
+    "inventory": 20,
+    "keywords": ["adventure", "module", "curse of strahd", "5e"]
+  },
+  {
+    "name": "Dice Set: Mystic Forest",
+    "img": "images/dice3.jpg",
+    "desc": "Nature-themed dice set.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 22.99,
+    "inventory": 21,
+    "keywords": ["dice", "mystic forest", "set", "5e", "resin"]
+  },
+  {
+    "name": "Player's Screen",
+    "img": "images/playerscreen.jpg",
+    "desc": "A handy screen for players with quick reference rules.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 15.99,
+    "inventory": 55,
+    "keywords": ["player's screen", "accessory", "5e", "quick reference"]
+  },
+  {
+    "name": "Miniature: Dragonborn Paladin",
+    "img": "images/dragonborn.jpg",
+    "desc": "A heroic dragonborn paladin miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 17.99,
+    "inventory": 45,
+    "keywords": ["miniature", "dragonborn", "paladin", "5e"]
+  },
+  {
+    "name": "Adventure Module: Storm King's Thunder",
+    "img": "images/stormking.jpg",
+    "desc": "An epic adventure set in the Forgotten Realms.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 39.99,
+    "inventory": 35,
+    "keywords": ["adventure", "module", "storm king's thunder", "5e"]
+  },
+  {
+    "name": "Dice Set: Celestial Stars",
+    "img": "images/dice4.jpg",
+    "desc": "Celestial-themed dice set.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 26.99,
+    "inventory": 65,
+    "keywords": ["dice", "celestial stars", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Elven Ranger",
+    "img": "images/elvenranger.jpg",
+    "desc": "A swift and agile elven ranger miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 18.99,
+    "inventory": 50,
+    "keywords": ["miniature", "elven", "ranger", "5e"]
+  },
+  {
+    "name": "Adventure Module: Tomb of Annihilation",
+    "img": "images/tombofannihilation.jpg",
+    "desc": "A deadly jungle adventure for brave adventurers.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 44.99,
+    "inventory": 30,
+    "keywords": ["adventure", "module", "tomb of annihilation", "5e"]
+  },
+  {
+    "name": "Dice Set: Arcane Mysteries",
+    "img": "images/dice5.jpg",
+    "desc": "Mystical dice set with arcane symbols.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 23.99,
+    "inventory": 70,
+    "keywords": ["dice", "arcane mysteries", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Dwarf Cleric",
+    "img": "images/dwarfcleric.jpg",
+    "desc": "A sturdy dwarf cleric miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 16.99,
+    "inventory": 12,
+    "keywords": ["miniature", "dwarf", "cleric", "5e"]
+  },
+  {
+    "name": "Adventure Module: Waterdeep: Dragon Heist",
+    "img": "images/dragonheist.jpg",
+    "desc": "A thrilling urban adventure in Waterdeep.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 37.99,
+    "inventory": 28,
+    "keywords": ["adventure", "module", "waterdeep", "dragon heist", "5e"]
+  },
+  {
+    "name": "Dice Set: Shadow Realm",
+    "img": "images/dice6.jpg",
+    "desc": "Dark-themed dice set for shadowy adventures.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 21.99,
+    "inventory": 40,
+    "keywords": ["dice", "shadow realm", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Orc Barbarian",
+    "img": "images/orcbarbarian.jpg",
+    "desc": "A fierce orc barbarian miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 19.99,
+    "inventory": 22,
+    "keywords": ["miniature", "orc", "barbarian", "5e"]
+  },
+  {
+    "name": "Adventure Module: Princes of the Apocalypse",
+    "img": "images/princesofapocalypse.jpg",
+    "desc": "An elemental-themed adventure for daring heroes.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 42.99,
+    "inventory": 18,
+    "keywords": ["adventure", "module", "princes of the apocalypse", "5e"]
+  },
+  {
+    "name": "Dice Set: Frostfire",
+    "img": "images/dice7.jpg",
+    "desc": "A unique dice set with frost and fire elements.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 75.99,
+    "inventory": 55,
+    "keywords": ["dice", "frostfire", "set", "5e", "metal"]
+  },
+  {
+    "name": "Miniature: Tiefling Warlock",
+    "img": "images/tieflingwarlock.jpg",
+    "desc": "A mysterious tiefling warlock miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 20.99,
+    "inventory": 30,
+    "keywords": ["miniature", "tiefling", "warlock", "5e"]
+  },
+  {
+    "name": "Adventure Module: The Wild Beyond the Witchlight",
+    "img": "images/wildbeyondthewitchlight.jpg",
+    "desc": "A whimsical adventure in the Feywild.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 35.99,
+    "inventory": 25,
+    "keywords": ["adventure", "module", "wild beyond the witchlight", "5e"]
+  },
+  {
+    "name": "Dice Set: Elemental Fury",
+    "img": "images/dice8.jpg",
+    "desc": "Elemental-themed dice set with vibrant colors.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 27.99,
+    "inventory": 60,
+    "keywords": ["dice", "elemental fury", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Human Fighter",
+    "img": "images/humanfighter.jpg",
+    "desc": "A brave human fighter miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 15.99,
+    "inventory": 50,
+    "keywords": ["miniature", "human", "fighter", "5e"]
+  },
+  {
+    "name": "Adventure Module: Baldur's Gate: Descent into Avernus",
+    "img": "images/baldursgate.jpg",
+    "desc": "A descent into the first layer of the Nine Hells.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 45.99,
+    "inventory": 15,
+    "keywords": ["adventure", "module", "baldur's gate", "descent into avernus", "5e"]
+  },
+  {
+    "name": "Dice Set: Mystic Ocean",
+    "img": "images/dice9.jpg",
+    "desc": "Ocean-themed dice set with mystical designs.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 29.99,
+    "inventory": 80,
+    "keywords": ["dice", "mystic ocean", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Gnome Illusionist",
+    "img": "images/gnomeillusionist.jpg",
+    "desc": "A clever gnome illusionist miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 17.99,
+    "inventory": 40,
+    "keywords": ["miniature", "gnome", "illusionist", "5e"]
+  },
+  {
+    "name": "Adventure Module: Icewind Dale: Rime of the Frostmaiden",
+    "img": "images/icewinddale.jpg",
+    "desc": "A chilling adventure in the frozen north.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 39.99,
+    "inventory": 20,
+    "keywords": ["adventure", "module", "icewind dale", "rime of the frostmaiden", "5e"]
+  },
+  {
+    "name": "Dice Set: Celestial Harmony",
+    "img": "images/dice10.jpg",
+    "desc": "A harmonious dice set with celestial designs.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 32.99,
+    "inventory": 45,
+    "keywords": ["dice", "celestial harmony", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Half-Orc Rogue",
+    "img": "images/half-orcrogue.jpg",
+    "desc": "A stealthy half-orc rogue miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 16.99,
+    "inventory": 35,
+    "keywords": ["miniature", "half-orc", "rogue", "5e"]
+  },
+  {
+    "name": "Adventure Module: The Secrets of Skyhorn Lighthouse",
+    "img": "images/skyhornlighthouse.jpg",
+    "desc": "A nautical adventure with mystery and intrigue.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 27.99,
+    "inventory": 18,
+    "keywords": ["adventure", "module", "skyhorn lighthouse", "5e"]
+  },
+  {
+    "name": "Dice Set: Arcane Dreams",
+    "img": "images/dice11.jpg",
+    "desc": "Dreamy dice set with arcane motifs.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 28.99,
+    "inventory": 38,
+    "keywords": ["dice", "arcane dreams", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Halfling Bard",
+    "img": "images/halflingbard.jpg",
+    "desc": "A cheerful halfling bard miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 15.99,
+    "inventory": 22,
+    "keywords": ["miniature", "halfling", "bard", "5e"]
+  },
+  {
+    "name": "Adventure Module: The Lost City of Omu",
+    "img": "images/lostcityofomu.jpg",
+    "desc": "An ancient city filled with secrets and dangers.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 36.99,
+    "inventory": 14,
+    "keywords": ["adventure", "module", "lost city of omu", "5e"]
+  },
+  {
+    "name": "Dice Set: Shadowed Realms",
+    "img": "images/dice12.jpg",
+    "desc": "A dark and mysterious dice set.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 24.99,
+    "inventory": 27,
+    "keywords": ["dice", "shadowed realms", "set", "5e", "resin"]
+  },
+  {
+    "name": "Miniature: Dragon Sorcerer",
+    "img": "images/dragonsorcerer.jpg",
+    "desc": "A powerful dragon sorcerer miniature.",
+    "category": "miniature",
+    "subcategory": null,
+    "price": 21.99,
+    "inventory": 11,
+    "keywords": ["miniature", "dragon", "sorcerer", "5e"]
+  },
+  {
+    "name": "Adventure Module: The Secrets of the Forgotten Realms",
+    "img": "images/forgottenrealms.jpg",
+    "desc": "An adventure exploring the secrets of the Forgotten Realms.",
+    "category": "book",
+    "subcategory": "module",
+    "price": 41.99,
+    "inventory": 10,
+    "keywords": ["adventure", "module", "forgotten realms", "5e"]
+  },
+  {
+    "name": "Dice Set: Celestial Guardians",
+    "img": "images/dice13.jpg",
+    "desc": "A celestial-themed dice set with guardian motifs.",
+    "category": "dice",
+    "subcategory": null,
+    "price": 31.99,
+    "inventory": 19,
+    "keywords": ["dice", "celestial guardians", "set", "5e", "resin"]
+  }
+]
