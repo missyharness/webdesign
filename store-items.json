@@ -1,7 +1,7 @@
 [
   {
     "name": "Baldur's Gate: Descent into Avernus",
-    "img": "images/baldursgate.jpg",
+    "img": "images/books/baldursgate.jpg",
     "desc": "A descent into the first layer of the Nine Hells.",
     "category": "book",
     "subcategory": "module",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Eberron: Rising from the Last War",
-    "img": "images/eberron.jpg",
+    "img": "images/books/eberron.jpg",
     "desc": "A sourcebook for the Eberron campaign setting.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -31,7 +31,7 @@
   },
   {
     "name": "Xanathar's Guide to Everything",
-    "img": "images/xanatharsguide.jpg",
+    "img": "images/books/xanatharsguide.jpg",
     "desc": "A sourcebook with new character options and rules.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Mordenkainen Presents: Monsters of the Multiverse",
-    "img": "images/mordenkainenmonsters.jpg",
+    "img": "images/books/mordenkainenmonsters.jpg",
     "desc": "A collection of monsters from across the D&D multiverse.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Curse of Strahd",
-    "img": "images/curseofstrahd.jpg",
+    "img": "images/books/curseofstrahd.jpg",
     "desc": "A gothic horror adventure for experienced players.",
     "category": "book",
     "subcategory": "module",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Fizban's Treasury of Dragons",
-    "img": "images/fizbansdragons.jpg",
+    "img": "images/books/fizbansdragons.jpg",
     "desc": "A comprehensive guide to dragons in D&D.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Mordenkainen's Tome of Foes",
-    "img": "images/mordenkainensfoes.jpg",
+    "img": "images/books/mordenkainensfoes.jpg",
     "desc": "A deep dive into the lore and creatures of the D&D multiverse.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Icewind Dale: Rime of the Frostmaiden",
-    "img": "images/icewinddale.jpg",
+    "img": "images/books/icewinddale.jpg",
     "desc": "A chilling adventure in the frozen north.",
     "category": "book",
     "subcategory": "module",
@@ -91,7 +91,7 @@
   },
   {
     "name": "Lost Mines of Phandelver",
-    "img": "images/lostmines.jpg",
+    "img": "images/books/lostmines.jpg",
     "desc": "A classic adventure for new players.",
     "category": "book",
     "subcategory": "module",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Princes of the Apocalypse",
-    "img": "images/princesofapocalypse.jpg",
+    "img": "images/books/princesofapocalypse.jpg",
     "desc": "An elemental-themed adventure for daring heroes.",
     "category": "book",
     "subcategory": "module",
@@ -111,7 +111,7 @@
   },
   {
     "name": "Storm King's Thunder",
-    "img": "images/stormking.jpg",
+    "img": "images/books/stormking.jpg",
     "desc": "An epic adventure set in the Forgotten Realms.",
     "category": "book",
     "subcategory": "module",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Tomb of Annihilation",
-    "img": "images/tombofannihilation.jpg",
+    "img": "images/books/tombofannihilation.jpg",
     "desc": "A deadly jungle adventure for brave adventurers.",
     "category": "book",
     "subcategory": "module",
@@ -131,7 +131,7 @@
   },
   {
     "name": "Waterdeep: Dragon Heist",
-    "img": "images/dragonheist.jpg",
+    "img": "images/books/dragonheist.jpg",
     "desc": "A thrilling urban adventure in Waterdeep.",
     "category": "book",
     "subcategory": "module",
@@ -141,7 +141,7 @@
   },
   {
     "name": "The Wild Beyond the Witchlight",
-    "img": "images/wildbeyondthewitchlight.jpg",
+    "img": "images/books/wildbeyondthewitchlight.jpg",
     "desc": "A whimsical adventure in the Feywild.",
     "category": "book",
     "subcategory": "module",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Dungeon Master's Guide - 2014",
-    "img": "images/dmg2014.jpg",
+    "img": "images/books/dmg2014.jpg",
     "desc": "D&D 5e 2014 Core Rulebook.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -161,7 +161,7 @@
   },
   {
     "name": "Dungeon Master's Guide - 2024",
-    "img": "images/dmg2024.jpg",
+    "img": "images/books/dmg2024.jpg",
     "desc": "D&D 5e 2024 Core Rulebook.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -171,7 +171,7 @@
   },
   {
     "name": "Monster Manual - 2014",
-    "img": "images/mm2014.jpg",
+    "img": "images/books/mm2014.jpg",
     "desc": "D&D 5e 2014 Core Rulebook.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Monster Manual - 2024",
-    "img": "images/mm2024.jpg",
+    "img": "images/books/mm2024.jpg",
     "desc": "D&D 5e 2024 Core Rulebook.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -191,7 +191,7 @@
   },
   {
     "name": "Player's Handbook - 2014",
-    "img": "images/phb2014.jpg",
+    "img": "images/books/phb2014.jpg",
     "desc": "D&D 5e 2014 Core Rulebook.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -201,7 +201,7 @@
   },
   {
     "name": "Player's Handbook - 2024",
-    "img": "images/phb2024.jpg",
+    "img": "images/books/phb2024.jpg",
     "desc": "D&D 5e 2024 Core Rulebook.",
     "category": "book",
     "subcategory": "sourcebook",
@@ -211,7 +211,7 @@
   },
   {
     "name": "Charleston Nights Dice Set",
-    "img": "images/dice1.jpg",
+    "img": "images/dice/dice1.jpg",
     "desc": "Glow-in-the-dark dice set.",
     "category": "dice",
     "subcategory": null,
