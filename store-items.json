@@ -210,6 +210,16 @@
     "keywords": ["rulebook", "core", "5e", "player's handbook", "2024", "sourcebook"]
   },
   {
+    "name": "The Druid's Call",
+    "img": "images/books/thedruidscall.jpg",
+    "desc": "A prequel to Dungeons && Dragons: Honor Among Thieves, set in the Forgotten Realms.",
+    "category": "book",
+    "subcategory": "novel",
+    "price": 14.99,
+    "inventory": 12,
+    "keywords": ["druid's call", "prequel", "novel", "dungeons and dragons", "honor among thieves", "forgotten realms"]
+  }
+  {
     "name": "Charleston Nights Dice Set",
     "img": "images/dice/dice1.jpg",
     "desc": "Glow-in-the-dark dice set.",
