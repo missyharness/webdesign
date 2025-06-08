@@ -139,6 +139,14 @@ main {
     margin: 0 auto;
 }
 
+.dm-photo {
+    width: 200px;
+    height: auto;
+    border-radius: 25%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
