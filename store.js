@@ -131,3 +131,17 @@ window.onclick = function(event) {
         modal.style.display = 'none';
     }
 };
+
+document.addEventListener('DOMContentLoaded', function() {
+    const params = new URLSearchParams(window.location.search);
+    const search = params.get('search');
+    if (search) {
+        const searchInput = document.getElementById('store-search');
+        if (searchInput) {
+            searchInput.value = search;
+            // Trigger the input event to filter items
+            const event = new Event('input', { bubbles: true });
+            searchInput.dispatchEvent(event);
+        }
+    }
+});

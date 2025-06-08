@@ -135,3 +135,29 @@ dayEventsDiv.onclick = function(e) {
 };
 
 renderCalendar(currentYear, currentMonth);
+
+document.addEventListener('DOMContentLoaded', function() {
+  const params = new URLSearchParams(window.location.search);
+  const dateParam = params.get('date');
+  if (dateParam) {
+    // Wait for events to load if using fetch
+    if (typeof EVENTS !== 'undefined' && EVENTS.length > 0) {
+      // Find the cell for this date and show day view
+      const cell = Array.from(document.querySelectorAll('.calendar-day')).find(cell => {
+        return cell.textContent === String(new Date(dateParam).getDate());
+      });
+      if (cell) showDayEvents(dateParam, cell);
+    } else {
+      // If events are loaded asynchronously, poll until loaded
+      const tryShow = setInterval(() => {
+        if (typeof EVENTS !== 'undefined' && EVENTS.length > 0) {
+          clearInterval(tryShow);
+          const cell = Array.from(document.querySelectorAll('.calendar-day')).find(cell => {
+            return cell.textContent === String(new Date(dateParam).getDate());
+          });
+          if (cell) showDayEvents(dateParam, cell);
+        }
+      }, 100);
+    }
+  }
+});
