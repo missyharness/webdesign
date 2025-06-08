@@ -74,14 +74,25 @@ function showDayEvents(dateStr, cell) {
   calendar.style.display = 'none';
 }
 
+function to12Hour(timeStr) {
+  const [hour, min] = timeStr.split(':');
+  let h = parseInt(hour, 10);
+  const ampm = h >= 12 ? 'PM' : 'AM';
+  h = h % 12;
+  if (h === 0) h = 12;
+  return `${h}:${min} ${ampm}`;
+}
+
 function showEventModal(ev) {
   document.getElementById('event-modal-title').textContent = ev.title;
   document.getElementById('event-modal-desc').textContent = ev.desc;
   document.getElementById('event-modal-location').textContent = ev.location;
-  document.getElementById('event-modal-time').textContent = `${ev.start} - ${ev.end}`;
+  document.getElementById('event-modal-time').textContent =
+    `${to12Hour(ev.start)} - ${to12Hour(ev.end)}`;
   eventModal.style.display = 'block';
 }
 
+// Close modal functionality
 closeModalBtn.onclick = () => eventModal.style.display = 'none';
 window.onclick = function(e) {
   if(e.target === eventModal) eventModal.style.display = 'none';
