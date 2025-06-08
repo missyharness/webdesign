@@ -110,7 +110,7 @@ main {
     flex-direction: column;
     justify-content: stretch;
     align-items: stretch;
-    padding: 0; /* Remove padding so slides and dots align perfectly */
+    padding: 0 2rem;
 }
 
 .banner-slide {
