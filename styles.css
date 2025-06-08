@@ -109,11 +109,13 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
 }
 
 .banner-slide {
     display: none;
-    padding: 2rem;
+    padding: 0 2rem;
     text-align: center;
     width: 100%;
     color: white;
@@ -467,4 +469,32 @@ main ul li {
   margin: 0.5em 0;
   padding: 0.5em 1em;
   cursor: pointer;
+}
+
+.banner-dots {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.banner-dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: #bbb;
+    cursor: pointer;
+    transition: background 0.2s;
+    border: none;
+}
+
+.banner-dot.active {
+    background: #2e8b57;
+}
+
+.events-list a {
+    text-decoration: none;
+    color: inherit;
 }

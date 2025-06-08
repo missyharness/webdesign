@@ -73,6 +73,7 @@
                 <img src="images/campaign.jpg" alt="Campaign Meetups" class="bannerpic">
                 <p>Looking for a long-term group? We help match players with open tables based on preferred playstyle and experience level.</p></a>
             </div>
+        <div class="banner-dots" id="banner-dots"></div>
         </div>
         <h2>Latest News</h2>
         <ul class="news-list">
@@ -100,15 +101,54 @@
         <p>All rights reserved.</p>
     </footer>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
         const slides = document.querySelectorAll('.banner-slide');
+        const dotsContainer = document.getElementById('banner-dots');
         let current = 0;
-        setInterval(() => {
-            slides[current].classList.remove('active');
-            current = (current + 1) % slides.length;
-            slides[current].classList.add('active');
-            }, 4000); // Change slide every 4 seconds
+        const total = slides.length;
+
+        // Create dots
+        for (let i = 0; i < total; i++) {
+            const dot = document.createElement('span');
+            dot.className = 'banner-dot' + (i === 0 ? ' active' : '');
+            dot.setAttribute('data-slide', i);
+            dotsContainer.appendChild(dot);
+        }
+        const dots = document.querySelectorAll('.banner-dot');
+
+        function showSlide(idx) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === idx);
+            });
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === idx);
+            });
+        }
+
+        // Auto-scroll every 4 seconds
+        let interval = setInterval(nextSlide, 4000);
+
+        function nextSlide() {
+            current = (current + 1) % total;
+            showSlide(current);
+        }
+
+        // Dot click event
+        dots.forEach((dot, i) => {
+            dot.addEventListener('click', function() {
+                current = i;
+                showSlide(current);
+                resetInterval();
+            });
         });
+
+        function resetInterval() {
+            clearInterval(interval);
+            interval = setInterval(nextSlide, 4000);
+        }
+
+        showSlide(current);
+    });
     </script>
     <script>
     fetch('events.json')
