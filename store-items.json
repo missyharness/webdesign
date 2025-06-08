@@ -380,155 +380,124 @@
     "keywords": ["dice", "cat", "blood", "set", "5e", "resin"]
   },
   {
-    "name": "Mystic Ocean Dice Set",
-    "img": "images/dice9.jpg",
-    "desc": "Ocean-themed dice set with mystical designs.",
-    "category": "dice",
-    "subcategory": null,
-    "price": 29.99,
-    "inventory": 80,
-    "keywords": ["dice", "mystic ocean", "set", "5e", "resin"]
-  },
-  {
     "name": "Rainbow Dice Set",
-
-    "img": "images/dice2.jpg",
-    "desc": "Ocean-themed dice set.",
-    "category": "dice",
-    "subcategory": null,
-    "price": 24.99,
-    "inventory": 75,
-    "keywords": ["dice", "ocean", "set", "5e", "resin"]
-  },
-  {
-    "name": "Shadow Realm Dice Set",
-    "img": "images/dice6.jpg",
-    "desc": "Dark-themed dice set for shadowy adventures.",
+    "img": "images/dice/rainbowdice.jpg",
+    "desc": "Rainbow colored dice in a wooden case.",
     "category": "dice",
     "subcategory": null,
     "price": 21.99,
     "inventory": 40,
-    "keywords": ["dice", "shadow realm", "set", "5e", "resin"]
+    "keywords": ["dice", "rainbow", "set", "5e", "resin"]
   },
   {
-    "name": "Cold Gold Dice Set",    
-    "img": "images/dice12.jpg",
-    "desc": "A dark and mysterious dice set.",
+    "name": "Skull Dice Set",
+    "img": "images/dice/skulldice.jpg",
+    "desc": "A set of dice with human skulls inside",
+    "category": "dice",
+    "subcategory": null,
+    "price": 21.99,
+    "inventory": 40,
+    "keywords": ["dice", "skull", "set", "5e", "resin"]
+  },
+  {
+    "name": "Cold Gold Dice Set",
+    "img": "images/dice/coldgold.jpg",
+    "desc": "A frosty gold-themed dice set.",    
     "category": "dice",
     "subcategory": null,
     "price": 24.99,
     "inventory": 27,
-    "keywords": ["dice", "shadowed realms", "set", "5e", "resin"]
+    "keywords": ["dice", "cold gold", "set", "5e", "metal"]
   },
   {
-    "name": "Dragon Sorcerer",
-    "img": "images/dragonsorcerer.jpg",
-    "desc": "A powerful dragon sorcerer miniature.",
+    "name": "Bandit Troll",
+    "img": "images/miniatures/bandittroll.jpg",
+    "desc": "A fearsome bandit troll miniature.",
     "category": "miniature",
     "subcategory": null,
     "price": 21.99,
     "inventory": 11,
-    "keywords": ["miniature", "dragon", "sorcerer", "5e"]
+    "keywords": ["miniature", "troll", "bandit", "5e"]
   },
   {
-    "name": "Dragonborn Paladin",
-    "img": "images/dragonborn.jpg",
-    "desc": "A heroic dragonborn paladin miniature.",
+    "name": "Cardboard D&D Characters",
+    "img": "images/miniatures/cardboardcharacters.jpg",
+    "desc": "A set of cardboard cutout D&D characters for easy reference.",
     "category": "miniature",
     "subcategory": null,
     "price": 17.99,
     "inventory": 45,
-    "keywords": ["miniature", "dragonborn", "paladin", "5e"]
+    "keywords": ["miniature", "cardboard", "characters", "5e"]
   },
   {
-    "name": "Dwarf Cleric",
-    "img": "images/dwarfcleric.jpg",
-    "desc": "A sturdy dwarf cleric miniature.",
+    "name": "Tabaxi Bard",
+    "img": "images/miniatures/tabaxibard.jpg",
+    "desc": "A playful tabaxi bard miniature.",
     "category": "miniature",
     "subcategory": null,
     "price": 16.99,
     "inventory": 12,
-    "keywords": ["miniature", "dwarf", "cleric", "5e"]
+    "keywords": ["miniature", "tabaxi", "bard", "5e"]
   },
   {
-    "name": "Elven Ranger",
-    "img": "images/elvenranger.jpg",
-    "desc": "A swift and agile elven ranger miniature.",
+    "name": "Dragonborn Fighter",
+    "img": "images/miniatures/dragonbornfighter.jpg",
+    "desc": "A fierce dragonborn fighter miniature.",
     "category": "miniature",
     "subcategory": null,
     "price": 18.99,
     "inventory": 50,
-    "keywords": ["miniature", "elven", "ranger", "5e"]
+    "keywords": ["miniature", "dragonborn", "fighter", "5e"]
   },
   {
-    "name": "Goblin Warrior",
-    "img": "images/goblin.jpg",
-    "desc": "A detailed goblin warrior miniature.",
+    "name": "Dwarf Fighter",
+    "img": "images/miniatures/dwarffighter.jpg",
+    "desc": "A sturdy dwarf fighter miniature.",
     "category": "miniature",
     "subcategory": null,
     "price": 14.99,
     "inventory": 60,
-    "keywords": ["miniature", "goblin", "warrior", "5e"]
+    "keywords": ["miniature", "dwarf", "fighter", "5e"]
   },
   {
-    "name": "Gnome Illusionist",
-    "img": "images/gnomeillusionist.jpg",
-    "desc": "A clever gnome illusionist miniature.",
+    "name": "Orc Fighter",
+    "img": "images/miniatures/orcfighter.jpg",
+    "desc": "A powerful orc fighter miniature.",
     "category": "miniature",
     "subcategory": null,
     "price": 17.99,
     "inventory": 40,
-    "keywords": ["miniature", "gnome", "illusionist", "5e"]
+    "keywords": ["miniature", "orc", "fighter", "5e"]
   },
   {
-    "name": "Half-Orc Rogue",
-    "img": "images/half-orcrogue.jpg",
-    "desc": "A stealthy half-orc rogue miniature.",
+    "name": "Skeleton Horde Set",
+    "img": "images/miniatures/skeletonhorde.jpg",
+    "desc": "A set of skeleton miniatures for undead encounters.",
     "category": "miniature",
     "subcategory": null,
     "price": 16.99,
     "inventory": 35,
-    "keywords": ["miniature", "half-orc", "rogue", "5e"]
+    "keywords": ["miniature", "skeleton", "horde", "5e"]
   },
   {
-    "name": "Halfling Bard",
-    "img": "images/halflingbard.jpg",
-    "desc": "A cheerful halfling bard miniature.",
+    "name": "5 Piece D&D Party Set",
+    "img": "images/miniatures/5piecepartyset.jpg",
+    "desc": "A complete set of five miniatures representing a typical D&D party.",
     "category": "miniature",
     "subcategory": null,
     "price": 15.99,
     "inventory": 22,
-    "keywords": ["miniature", "halfling", "bard", "5e"]
+    "keywords": ["miniature", "party set", "5e", "dnd"]
   },
   {
-    "name": "Human Fighter",
-    "img": "images/humanfighter.jpg",
-    "desc": "A brave human fighter miniature.",
+    "name": "Wolf",
+    "img": "images/miniatures/wolf.jpg",
+    "desc": "A wolf miniature, perfect for wilderness encounters.",
     "category": "miniature",
     "subcategory": null,
     "price": 15.99,
     "inventory": 50,
-    "keywords": ["miniature", "human", "fighter", "5e"]
-  },
-  {
-    "name": "Orc Barbarian",
-    "img": "images/orcbarbarian.jpg",
-    "desc": "A fierce orc barbarian miniature.",
-    "category": "miniature",
-    "subcategory": null,
-    "price": 19.99,
-    "inventory": 22,
-    "keywords": ["miniature", "orc", "barbarian", "5e"]
-  },
-  {
-    "name": "Tiefling Warlock",
-    "img": "images/tieflingwarlock.jpg",
-    "desc": "A mysterious tiefling warlock miniature.",
-    "category": "miniature",
-    "subcategory": null,
-    "price": 20.99,
-    "inventory": 30,
-    "keywords": ["miniature", "tiefling", "warlock", "5e"]
+    "keywords": ["miniature", "wolf", "5e", "animal"]
   },
   {
     "name": "Dragon Scale Dice Bag",
@@ -649,5 +618,195 @@
     "price": 59.99,
     "inventory": 15,
     "keywords": ["wizard staff", "accessory", "role-playing", "5e"]
+  },
+  {
+    "name": "Ship at sea",
+    "img": "images/artwork/shipatsea.jpg",
+    "desc": "A battle map of a ship sailing over waves.",
+    "category": "map", 
+    "subcategory": "battlemap",
+    "price": 19.99,
+    "inventory": 50,
+    "keywords": ["ship", "sea", "battlemap", "5e"]
+  },
+  {
+    "name": "Lost Mines of Phandelver",
+    "img": "images/maps/lostmines.jpg",
+    "desc": "A detailed map of the Lost Mines of Phandelver adventure.",
+    "category": "map",
+    "subcategory": "adventure",
+    "price": 14.99,
+    "inventory": 100,
+    "keywords": ["lost mines", "phandelver", "map", "adventure", "5e"]
+  },
+  {
+    "name": "Elturel: Holy City of Paladins",
+    "img": "images/maps/elturel.jpg",
+    "desc": "A map of Elturel, the holy city of paladins, with key locations marked.",
+    "category": "map",
+    "subcategory": "city",
+    "price": 24.99,
+    "inventory": 30,
+    "keywords": ["elturel", "holy city", "paladins", "map", "5e"]
+  },
+  {
+    "name": "Fishing Village",
+    "img": "images/maps/fishingvillage.jpg",
+    "desc": "A map of a quaint fishing village, perfect for small adventures.",
+    "category": "map",
+    "subcategory": "village",
+    "price": 12.99,
+    "inventory": 75,
+    "keywords": ["fishing village", "map", "5e", "adventure"]
+  },
+  {
+    "name": "Inn and Stables",
+    "img": "images/maps/innandstables.jpg",
+    "desc": "A map of an inn and stables, ideal for resting and gathering information.",
+    "category": "map",
+    "subcategory": "building",
+    "price": 9.99,
+    "inventory": 100,
+    "keywords": ["inn", "stables", "map", "5e", "adventure"]
+  },
+  {
+    "name": "Tavern Map",
+    "img": "images/maps/tavern.jpg",
+    "desc": "A detailed map of a bustling tavern, perfect for social encounters.",
+    "category": "map",
+    "subcategory": "building",
+    "price": 11.99,
+    "inventory": 80,
+    "keywords": ["tavern", "map", "5e", "adventure"]
+  },
+  {
+    "name": "Undergound Temple",
+    "img": "images/maps/undergroundtemple.jpg",
+    "desc": "A map of an underground temple, filled with traps and treasures.",
+    "category": "map",
+    "subcategory": "dungeon",
+    "price": 15.99,
+    "inventory": 60,
+    "keywords": ["underground temple", "map", "dungeon", "5e", "adventure"]
+  },
+  {
+    "name": "Castle Tiles",
+    "img": "images/terrain/castletiles.jpg",
+    "desc": "A set of castle tiles for building your own castle terrain.",
+    "category": "terrain",
+    "subcategory": "tiles",
+    "price": 39.99,
+    "inventory": 25,
+    "keywords": ["castle", "tiles", "terrain", "5e"]
+  },
+  {
+    "name": "Cavern Tiles",
+    "img": "images/terrain/caverntiles.jpg",
+    "desc": "A set of cavern tiles for creating underground adventures.",
+    "category": "terrain",
+    "subcategory": "tiles",
+    "price": 34.99,
+    "inventory": 30,
+    "keywords": ["cavern", "tiles", "terrain", "5e"]
+  },
+  {
+    "name": "Temple Tiles",
+    "img": "images/terrain/templetile.jpg",
+    "desc": "A set of temple tiles for building sacred sites and dungeons.",
+    "category": "terrain",
+    "subcategory": "tiles",
+    "price": 29.99,
+    "inventory": 40,
+    "keywords": ["temple", "tiles", "terrain", "5e"]
+  },
+  {
+    "name": "Dragon Skeleton",
+    "img": "images/terrain/dragonskeleton.jpg",
+    "desc": "A large dragon skeleton model for epic encounters.",
+    "category": "terrain",
+    "subcategory": "model",
+    "price": 99.99,
+    "inventory": 10,
+    "keywords": ["dragon", "skeleton", "terrain", "5e", "model"]
+  },
+  {
+    "name": "Alter Room",
+    "img": "images/terrain/alterroom.jpg",
+    "desc": "A detailed model of an altar room, perfect for religious encounters.",
+    "category": "terrain",
+    "subcategory": "model",
+    "price": 49.99,
+    "inventory": 20,
+    "keywords": ["altar room", "terrain", "5e", "model"]
+  },
+  {
+    "name": "Dungeon Tiles",
+    "img": "images/terrain/dungeontiles.jpg",
+    "desc": "A set of dungeon tiles for creating intricate dungeon layouts.",
+    "category": "terrain",
+    "subcategory": "tiles",
+    "price": 44.99,
+    "inventory": 15,
+    "keywords": ["dungeon", "tiles", "terrain", "5e"]
+  },
+  {
+    "name": "Grassy Plains",
+    "img": "images/terrain/grassyplains.jpg",
+    "desc": "A set of grassy plains terrain tiles for outdoor adventures.",
+    "category": "terrain",
+    "subcategory": "tiles",
+    "price": 24.99,
+    "inventory": 50,
+    "keywords": ["grassy plains", "terrain", "5e", "tiles"]
+  },
+  {
+    "name": "Village Tiles",
+    "img": "images/terrain/villagetiles.jpg",
+    "desc": "A set of village tiles for creating small settlements and towns.",
+    "category": "terrain",
+    "subcategory": "tiles",
+    "price": 39.99,
+    "inventory": 30,
+    "keywords": ["village", "tiles", "terrain", "5e"]
+  },
+  {
+    "name": "Market Square",
+    "img": "images/terrain/marketsquare.jpg",
+    "desc": "A detailed model of a market square, perfect for bustling city adventures.",
+    "category": "terrain",
+    "subcategory": "model",
+    "price": 54.99,
+    "inventory": 18,
+    "keywords": ["market square", "terrain", "5e", "model"]
+  },
+  {
+    "name": "Temple Ruins",
+    "img": "images/terrain/templeruins.jpg",
+    "desc": "A set of temple ruins terrain pieces for ancient site explorations.",
+    "category": "terrain",
+    "subcategory": "model",
+    "price": 59.99,
+    "inventory": 12,
+    "keywords": ["temple ruins", "terrain", "5e", "model"]
+  },
+  {
+    "name": "City Ruins",
+    "img": "images/terrain/cityruins.jpg",
+    "desc": "A set of city ruins terrain pieces for post-apocalyptic or war-torn settings.",
+    "category": "terrain",
+    "subcategory": "model",
+    "price": 69.99,
+    "inventory": 8,
+    "keywords": ["city ruins", "terrain", "5e", "model"]
+  },
+  {
+    "name": "Tavern",
+    "img": "images/terrain/tavern.jpg",
+    "desc": "A detailed model of a tavern, perfect for social encounters and resting.",
+    "category": "terrain",
+    "subcategory": "model",
+    "price": 49.99,
+    "inventory": 20,
+    "keywords": ["tavern", "terrain", "5e", "model"]
   }
 ]
