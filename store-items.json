@@ -1,5 +1,75 @@
 [
   {
+"name": "Magic Smith",
+    "img": "images/artwork/magicsmith.jpg",
+    "desc": "A stunning acrylic painting of a dwarvin artificer at work.",
+    "category": "artwork",
+    "subcategory": "painting",
+    "price": 229.99,
+    "inventory": 1,
+    "keywords": ["dwarvin", "artificer", "painting", "5e"]
+  },
+  {
+    "name": "Forest Fury",
+    "img": "images/artwork/forestfury.jpg",
+    "desc": "A beautiful oil painting of an elven ranger, poised with her longbow, faces a charging dire bear in a mystical forest",
+    "category": "artwork",
+    "subcategory": "painting",
+    "price": 354.99,
+    "inventory": 1,
+    "keywords": ["elven", "ranger", "painting", "5e"]
+  },
+  {
+    "name": "The Golden Temple",
+    "img": "images/artwork/goldentemple.jpg",
+    "desc": "A oak carving of a temple, stained and polished to a golden sheen.",
+    "category": "artwork",
+    "subcategory": "sculpture",
+    "price": 499.99,
+    "inventory": 1,
+    "keywords": ["temple", "statue", "golden", "5e"]
+  },
+  {
+    "name": "Test of Strength",
+    "img": "images/artwork/testofstrength.jpg",
+    "desc": "An ink sketch of an orc and human locked in combat to test their abilities in combat.",
+    "category": "artwork",
+    "subcategory": "sketch",
+    "price": 89.99,
+    "inventory": 1,
+    "keywords": ["orc", "human", "sketch", "5e"]
+  },
+  {
+    "name": "Dragon Lamp",
+    "img": "images/artwork/dragonlamp.jpg",
+    "desc": "A unique lamp carved from resin and walnut, shaped like a dragon.",
+    "category": "artwork",
+    "subcategory": "lamp",
+    "price": 199.99,
+    "inventory": 1,
+    "keywords": ["dragon", "lamp", "wood", "5e"]
+  },
+  {
+    "name": "Winter Tyrant",
+    "img": "images/artwork/wintertyrant.jpg",
+    "desc": "A stunning acrylic painting of a white dragon standing tall in a snowy landscape.",
+    "category": "artwork",
+    "subcategory": "painting",
+    "price": 249.99,
+    "inventory": 1,
+    "keywords": ["white dragon", "painting", "5e"]
+  },
+  {
+    "name": "Scaled Guardian",
+    "img": "images/artwork/scaledguardian.jpg",
+    "desc": "A detailed sculpture of a dragon, carved from poplar.",
+    "category": "artwork",
+    "subcategory": "sculpture",
+    "price": 349.99,
+    "inventory": 1,
+    "keywords": ["dragon", "sculpture", "poplar", "5e"]
+  },
+  {
     "name": "Baldur's Gate: Descent into Avernus",
     "img": "images/books/baldursgate.jpg",
     "desc": "A descent into the first layer of the Nine Hells.",
@@ -221,7 +291,7 @@
   },
   {
     "name": "Charleston Nights Dice Set",
-    "img": "images/dice/dice1.jpg",
+    "img": "images/dice/charlestonnights.jpg",
     "desc": "Glow-in-the-dark dice set.",
     "category": "dice",
     "subcategory": null,
@@ -230,59 +300,59 @@
     "keywords": ["dice", "glow-in-the-dark", "set", "charleston nights", "5e", "resin"]
   },
   {
-    "name": "Arcane Dreams Dice Set",
-    "img": "images/dice11.jpg",
-    "desc": "Dreamy dice set with arcane motifs.",
+    "name": "Blue Gear Dice Set",
+    "img": "images/dice/bluedice.jpg",
+    "desc": "A set of blue gear-themed dice.",
     "category": "dice",
     "subcategory": null,
     "price": 28.99,
     "inventory": 38,
-    "keywords": ["dice", "arcane dreams", "set", "5e", "resin"]
+    "keywords": ["dice", "blue gear", "set", "5e", "resin"]
   },
   {
-    "name": "Arcane Mysteries Dice Set",
-    "img": "images/dice5.jpg",
-    "desc": "Mystical dice set with arcane symbols.",
+    "name": "Dragon Eye Dice Set",
+    "img": "images/dice/dragoneye.jpg",
+    "desc": "A mystical dice set with dragon eye designs.",
     "category": "dice",
     "subcategory": null,
     "price": 23.99,
     "inventory": 70,
-    "keywords": ["dice", "arcane mysteries", "set", "5e", "resin"]
+    "keywords": ["dice", "dragon eye", "set", "5e", "resin"]
   },
   {
-    "name": "Celestial Guardians Dice Set",
-    "img": "images/dice13.jpg",
-    "desc": "A celestial-themed dice set with guardian motifs.",
+    "name": "Haunted Glow Dice Set",
+    "img": "images/dice/hauntedglow.jpg",
+    "desc": "A spooky glow-in-the-dark dice set.",
     "category": "dice",
     "subcategory": null,
     "price": 31.99,
     "inventory": 19,
-    "keywords": ["dice", "celestial guardians", "set", "5e", "resin"]
+    "keywords": ["dice", "haunted glow", "set", "5e", "resin"]
   },
   {
-    "name": "Celestial Harmony Dice Set",
-    "img": "images/dice10.jpg",
-    "desc": "A harmonious dice set with celestial designs.",
+    "name": "Christmas Dice Set",
+    "img": "images/dice/christmasdice.jpg",
+    "desc": "A festive dice set for the holiday season.",
     "category": "dice",
     "subcategory": null,
     "price": 32.99,
     "inventory": 45,
-    "keywords": ["dice", "celestial harmony", "set", "5e", "resin"]
+    "keywords": ["dice", "christmas", "set", "5e", "metal"]
   },
   {
-    "name": "Celestial Stars Dice Set",
-    "img": "images/dice4.jpg",
-    "desc": "Celestial-themed dice set.",
+    "name": "Infinity Stone Dice Set",
+    "img": "images/dice/infinitystone.jpg",
+    "desc": "A unique dice set inspired by the Infinity Stones.",
     "category": "dice",
     "subcategory": null,
     "price": 26.99,
     "inventory": 65,
-    "keywords": ["dice", "celestial stars", "set", "5e", "resin"]
+    "keywords": ["dice", "infinity stone", "set", "5e", "resin"]
   },
   {
-    "name": "Elemental Fury Dice Set",
-    "img": "images/dice8.jpg",
-    "desc": "Elemental-themed dice set with vibrant colors.",
+    "name": "Lucky Duck Dice Set",
+    "img": "images/dice/luckyduck.jpg",
+    "desc": "A whimsical dice set featuring lucky duck designs.",
     "category": "dice",
     "subcategory": null,
     "price": 27.99,
@@ -290,24 +360,24 @@
     "keywords": ["dice", "elemental fury", "set", "5e", "resin"]
   },
   {
-    "name": "Frostfire Dice Set",
-    "img": "images/dice7.jpg",
-    "desc": "A unique dice set with frost and fire elements.",
+    "name": "Mindflayer Dice Set",
+    "img": "images/dice/mindflayer.jpg",
+    "desc": "A mindflayer-themed dice set for dark adventures.",
     "category": "dice",
     "subcategory": null,
     "price": 75.99,
     "inventory": 55,
-    "keywords": ["dice", "frostfire", "set", "5e", "metal"]
+    "keywords": ["dice", "mindflayer", "set", "5e", "metal"]
   },
   {
-    "name": "Mystic Forest Dice Set",
-    "img": "images/dice3.jpg",
-    "desc": "Nature-themed dice set.",
+    "name": "Murder Cat Dice Set",
+    "img": "images/dice/murdercat.jpg",
+    "desc": "Blood covered dice set that comes with a small white cat figurine.",
     "category": "dice",
     "subcategory": null,
     "price": 22.99,
     "inventory": 21,
-    "keywords": ["dice", "mystic forest", "set", "5e", "resin"]
+    "keywords": ["dice", "cat", "blood", "set", "5e", "resin"]
   },
   {
     "name": "Mystic Ocean Dice Set",
@@ -320,7 +390,8 @@
     "keywords": ["dice", "mystic ocean", "set", "5e", "resin"]
   },
   {
-    "name": "Ocean Depths Dice Set",
+    "name": "Rainbow Dice Set",
+    
     "img": "images/dice2.jpg",
     "desc": "Ocean-themed dice set.",
     "category": "dice",
@@ -340,7 +411,7 @@
     "keywords": ["dice", "shadow realm", "set", "5e", "resin"]
   },
   {
-    "name": "Shadowed Realms Dice Set",
+    "name": "Cold Gold Dice Set",    
     "img": "images/dice12.jpg",
     "desc": "A dark and mysterious dice set.",
     "category": "dice",
@@ -461,22 +532,122 @@
   },
   {
     "name": "Dragon Scale Dice Bag",
-    "img": "images/dicebag.jpg",
+    "img": "images/accessories/dragonscaledicebag.jpg",
     "desc": "A stylish dice bag with dragon scale design.",
     "category": "accessory",
-    "subcategory": null,
+    "subcategory": "dicebag",
     "price": 19.99,
     "inventory": 80,
     "keywords": ["dice bag", "dragon scale", "accessory", "5e"]
   },
   {
-    "name": "Player's Screen",
-    "img": "images/playerscreen.jpg",
-    "desc": "A handy screen for players with quick reference rules.",
+    "name": "Dungeon Master's Screen",
+    "img": "images/accessories/dmscreen.jpg",
+    "desc": "A comprehensive screen for Dungeon Masters with essential rules.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 24.99,
+    "inventory": 40,
+    "keywords": ["dungeon master's screen", "accessory", "5e", "rules"]
+  },
+  {
+    "name": "Miniature Storage Box",
+    "img": "images/accessories/miniaturestoragebox.jpg",
+    "desc": "A sturdy storage box for miniatures in the shape of a treasure chest, filled with treasure.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 29.99,
+    "inventory": 30,
+    "keywords": ["miniature storage", "box", "accessory", "5e"]
+  },
+  {
+    "name": "Wooden Condition Markers",
+    "img": "images/accessories/conditionmarkers.jpg",
+    "desc": "A set of wooden condition markers for tracking status effects in-game.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 14.99,
+    "inventory": 50,
+    "keywords": ["condition markers", "wooden", "accessory", "5e"]
+  },
+  {
+    "name": "Wooden Dice Tower",
+    "img": "images/accessories/dicetower.jpg",
+    "desc": "A beautifully crafted wooden dice tower for rolling dice.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 39.99,
+    "inventory": 25,
+    "keywords": ["dice tower", "wooden", "accessory", "5e"]
+  },
+  {
+    "name": "Dungeon Master Rings",
+    "img": "images/accessories/dmring.jpg",
+    "desc": "A set of rings for Dungeon Masters to signify their role in the game.",
     "category": "accessory",
     "subcategory": null,
     "price": 15.99,
-    "inventory": 55,
-    "keywords": ["player's screen", "accessory", "5e", "quick reference"]
+    "inventory": 100,
+    "keywords": ["dungeon master", "rings", "accessory", "5e"]
+  },
+  {
+    "name": "Bag of Gold Coins",
+    "img": "images/accessories/bagofgoldcoins.jpg",
+    "desc": "A bag filled with gold coins, perfect for in-game currency.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 9.99,
+    "inventory": 200,
+    "keywords": ["gold coins", "bag", "accessory", "5e"]
+  },
+  {
+    "name": "Wooden Initiative Tracker",
+    "img": "images/accessories/initiative_tracker.jpg",
+    "desc": "A wooden initiative tracker to keep track of turns in combat.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 12.99,
+    "inventory": 60,
+    "keywords": ["initiative tracker", "wooden", "accessory", "5e"]
+  },
+  {
+    "name": "Coffee Mug of Holding",
+    "img": "images/accessories/coffeemugofholding.jpg",
+    "desc": "A coffee mug that can hold more than it seems, perfect for long gaming sessions.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 14.99,
+    "inventory": 75,
+    "keywords": ["coffee mug", "holding", "accessory", "5e"]
+  },
+  {
+    "name": "Paint Kit for Miniatures",
+    "img": "images/accessories/paintkit.jpg",
+    "desc": "A complete paint kit for customizing miniatures with various colors and brushes.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 29.99,
+    "inventory": 50,
+    "keywords": ["paint kit", "miniatures", "accessory", "5e"]
+  },
+  {
+    "name": "Time Out Chair",
+    "img": "images/accessories/timeoutchair.jpg",
+    "desc": "A chair for dice that need a break, designed to look like a throne.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 49.99,
+    "inventory": 20,
+    "keywords": ["time out chair", "dice", "throne", "accessory", "5e"]
+  },
+  {
+    "Name": "Wizard Staff",
+    "img": "images/accessories/wizardstaff.jpg",
+    "desc": "A decorative staff for wizards, perfect for role-playing.",
+    "category": "accessory",
+    "subcategory": null,
+    "price": 59.99,
+    "inventory": 15,
+    "keywords": ["wizard staff", "accessory", "role-playing", "5e"]
   }
 ]
