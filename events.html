@@ -33,11 +33,31 @@
         <p>Join us for our upcoming community events and gatherings!</p>
 
         <!-- Add your event content here -->
+        <div id="calendar-controls">
+            <button id="prev-month">&lt;</button>
+            <span id="calendar-month"></span>
+            <button id="next-month">&gt;</button>
+        </div>
+        <div id="calendar"></div>
+        <div id="day-events" style="display:none;"></div>
+
+        <!-- Event Modal -->
+        <div id="event-modal" class="modal" style="display:none;">
+        <div class="modal-content">
+            <span class="close" id="event-modal-close">&times;</span>
+            <h2 id="event-modal-title"></h2>
+            <p id="event-modal-desc"></p>
+            <p><strong>Location:</strong> <span id="event-modal-location"></span></p>
+            <p><strong>Time:</strong> <span id="event-modal-time"></span></p>
+        </div>
+        </div>
     </main>
 
     <footer>
         <p>&copy; 2025 Melissa A. Harness</p>
     </footer>
+        <script src="events-data.js"></script>
+        <script src="events.js"></script>
     <script>
         // Add any JavaScript functionality here if needed
         document.addEventListener('DOMContentLoaded', function() {
