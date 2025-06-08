@@ -621,7 +621,7 @@
   },
   {
     "name": "Ship at sea",
-    "img": "images/artwork/shipatsea.jpg",
+    "img": "images/maps/shipatsea.jpg",
     "desc": "A battle map of a ship sailing over waves.",
     "category": "map", 
     "subcategory": "battlemap",
