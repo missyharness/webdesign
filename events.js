@@ -62,7 +62,10 @@ function showDayEvents(dateStr, cell) {
   // Show events for the day
   const events = EVENTS.filter(ev => ev.date === dateStr);
   if(events.length === 0) return;
-  dayEventsDiv.innerHTML = `<h3>Events for ${dateStr}</h3>`;
+  dayEventsDiv.innerHTML = `
+    <button id="back-to-month" style="margin-bottom:1em;">&larr; Back to Month</button>
+    <h3>Events for ${dateStr}</h3>
+  `;
   events.forEach(ev => {
     const div = document.createElement('div');
     div.className = 'event-listing';
@@ -72,6 +75,13 @@ function showDayEvents(dateStr, cell) {
   });
   dayEventsDiv.style.display = 'block';
   calendar.style.display = 'none';
+
+  // Add event listener for the back button
+  document.getElementById('back-to-month').onclick = function() {
+    dayEventsDiv.style.display = 'none';
+    calendar.style.display = 'grid';
+    document.querySelectorAll('.calendar-day').forEach(d => d.classList.remove('selected'));
+  };
 }
 
 function to12Hour(timeStr) {
