@@ -52,7 +52,8 @@ function renderCalendar(year, month) {
     calendar.appendChild(cell);
   }
 
-  monthLabel.textContent = `${today.toLocaleString('default', { month: 'long' })} ${year}`;
+const displayDate = new Date(year, month, 1);
+monthLabel.textContent = `${displayDate.toLocaleString('default', { month: 'long' })} ${year}`;
 }
 
 function showDayEvents(dateStr, cell) {
