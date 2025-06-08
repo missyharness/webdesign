@@ -132,6 +132,13 @@ main {
     height: 100%;
 }
 
+.bannerpic {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
