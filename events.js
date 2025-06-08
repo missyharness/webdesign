@@ -66,7 +66,8 @@ function showDayEvents(dateStr, cell) {
   events.forEach(ev => {
     const div = document.createElement('div');
     div.className = 'event-listing';
-    div.textContent = ev.title + ' (' + to12Hour(ev.start) + ' - ' + to12Hour(ev.end) + ')';    div.onclick = () => showEventModal(ev);
+    div.textContent = ev.title + ' (' + to12Hour(ev.start) + ' - ' + to12Hour(ev.end) + ')';
+    div.onclick = () => showEventModal(ev);
     dayEventsDiv.appendChild(div);
   });
   dayEventsDiv.style.display = 'block';
