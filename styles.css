@@ -495,7 +495,6 @@ main ul li {
 }
 
 .events-list a {
-    color: #2e8b57;
     text-decoration: none;
     transition: background 0.2s, color 0.2s;
     padding: 2px 6px;
