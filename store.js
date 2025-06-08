@@ -21,27 +21,14 @@ function renderStoreGrid() {
 
     itemsToShow.forEach((item, idx) => {
         const div = document.createElement('div');
-        div.className = 'store-item';
+        div.className = 'store-item clickable';
         div.innerHTML = `
             <img src="${item.img}" alt="${item.name}">
             <h4>${item.name}</h4>
-            <p>${item.desc}</p>
-            <p><strong>Category:</strong> ${item.category ?? 'N/A'}${item.subcategory ? ' &raquo; ' + item.subcategory : ''}</p>
             <p><strong>Price:</strong> $${item.price?.toFixed(2) ?? 'N/A'}</p>
-            <p><strong>In Stock:</strong> <span class="inventory-count">${item.inventory ?? 'N/A'}</span></p>
-            <button class="buy-btn" ${item.inventory <= 0 ? 'disabled' : ''}>Buy</button>
         `;
+        div.addEventListener('click', () => showItemModal(item));
         grid.appendChild(div);
-
-        // Buy button logic (demo only)
-        const buyBtn = div.querySelector('.buy-btn');
-        buyBtn.addEventListener('click', function() {
-            if (item.inventory > 0) {
-                item.inventory--;
-                div.querySelector('.inventory-count').textContent = item.inventory;
-                if (item.inventory <= 0) buyBtn.disabled = true;
-            }
-        });
     });
 }
 
@@ -104,3 +91,43 @@ document.getElementById('store-search').addEventListener('input', function() {
     renderStoreGrid();
     renderPagination();
 });
+
+function showItemModal(item) {
+    document.getElementById('modal-img').src = item.img;
+    document.getElementById('modal-img').alt = item.name;
+    document.getElementById('modal-name').textContent = item.name;
+    document.getElementById('modal-desc').textContent = item.desc;
+    document.getElementById('modal-inventory').textContent = item.inventory ?? 'N/A';
+
+    const buyBtn = document.getElementById('modal-buy-btn');
+    buyBtn.disabled = item.inventory <= 0;
+    buyBtn.textContent = item.inventory > 0 ? 'Buy' : 'Out of Stock';
+
+    // Remove previous event listeners by cloning
+    const newBuyBtn = buyBtn.cloneNode(true);
+    buyBtn.parentNode.replaceChild(newBuyBtn, buyBtn);
+
+    newBuyBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        if (item.inventory > 0) {
+            item.inventory--;
+            document.getElementById('modal-inventory').textContent = item.inventory;
+            newBuyBtn.disabled = item.inventory <= 0;
+            newBuyBtn.textContent = item.inventory > 0 ? 'Buy' : 'Out of Stock';
+            renderStoreGrid(); // update grid if needed
+        }
+    });
+
+    document.getElementById('item-modal').style.display = 'block';
+}
+
+// Close modal logic
+document.getElementById('modal-close').onclick = function() {
+    document.getElementById('item-modal').style.display = 'none';
+};
+window.onclick = function(event) {
+    const modal = document.getElementById('item-modal');
+    if (event.target === modal) {
+        modal.style.display = 'none';
+    }
+};
